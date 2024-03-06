@@ -1,0 +1,26 @@
+.C-btn {
+    background-color: #0acf83; 
+    color: #fff;
+    border: none; 
+  }
+  
+
+  .C-btn:hover {
+    background-color: #0acf95; 
+  }
+  
+ 
+  .C-btn:focus {
+    outline: none; 
+    box-shadow: 0 0 0 3px rgba(10, 207, 131, 0.5);
+  } 
+  
+
+
+
+
+
+
+
+  
+  

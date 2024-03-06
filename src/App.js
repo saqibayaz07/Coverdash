@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Businesses from './components/ExploreBusiness/Business';
+import Simplified from './components/SmplifiedInsurance/Simplified';
+import CarrierPartners from './components/CarrierPartners/CarrierPartners';
+import BecomePartner from './components/BecomePartner/BecomePartner';
+import Navbar from './components/Navbar/navbar';
+import Footer from './components/Footer/Footer';
+import Axhaji from './components/4/axhaji';
+import Banner from './components/Banner/Banner';
+import Steps from './components/Steps/Steps';
+import Press from './components/Press/Press';
+import Insure from './components/Insure/Insure';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <Press></Press>
+      <Steps></Steps>
+      <Insure></Insure>
+      <Businesses />
+      <Simplified></Simplified>
+      <CarrierPartners></CarrierPartners>
+      <BecomePartner></BecomePartner>
+      
+      <Footer></Footer>
     </div>
   );
 }

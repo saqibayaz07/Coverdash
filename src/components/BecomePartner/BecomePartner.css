@@ -1,0 +1,73 @@
+.text-primary {
+    --tw-text-opacity: 1;
+    color: rgb(10 207 131 / var(--tw-text-opacity));
+}
+.pclass p{
+    text-align: left;
+}
+pre[class*=language-] {
+    color: #fff;
+    background: #011627;
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+    color: #d6deeb;
+    font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    hyphens: none;
+}
+code[class*=language-], pre[class*=language-] {
+    color: #d6deeb;
+    font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    hyphens: none;
+}
+.token.keyword, .token.operator, .token.tag {
+    color: #7fdbca;
+}
+.token.string {
+    color: #addb67;
+}
+.token.punctuation {
+    color: #c792ea;
+}
+.token.keyword {
+    color: #7fdbca;
+}
+.token.function {
+    color: #82aaff;
+}
+.prose :where(pre):not(:where([class~=not-prose] *)) {
+    color: var(--tw-prose-pre-code);
+    background-color: var(--tw-prose-pre-bg);
+    overflow-x: auto;
+    font-weight: 400;
+    font-size: .875em;
+    line-height: 1.7142857;
+    margin-top: 1.7142857em;
+    margin-bottom: 1.7142857em;
+    border-radius: 0.375rem;
+    padding: 0.8571429em 1.1428571em;
+}
+.bg-primary {
+    --tw-bg-opacity: 1;
+    background-color: rgb(10 207 131 / var(--tw-bg-opacity));
+}
